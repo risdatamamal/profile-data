@@ -37,7 +37,7 @@ DIRECTORY STRUCTURE
 REQUIREMENTS
 ------------
 
-The minimum requirement by this project template that your Web server supports PHP 7.4.
+The minimum requirement by this project template that your Web server supports PHP 8.0.
 
 
 INSTALLATION
