@@ -13,3 +13,33 @@
 - Jalankan perintah `docker exec -it yii-app php yii migrate` untuk membuat tabel-tabel yang dibutuhkan
 - Jalankan perintah `docker-compose up --build` untuk menjalankan server
 - Server akan berjalan di `localhost:8000`
+
+
+## Cara Penggunaan API:
+### Create a new contact profile:
+
+```markdown
+POST /contact-profiles
+```
+
+### Get a list of contact profiles:
+```markdown
+`GET /contact-profiles`
+```
+
+### Get details of a specific contact profile:
+
+```markdown
+GET /contact-profiles/{id}
+```
+
+### Update a contact profile:
+
+```mardown
+PUT /contact-profiles/{id}
+```
+
+### Delete a contact profile:
+```markdown
+DELETE /contact-profiles/{id}
+```
