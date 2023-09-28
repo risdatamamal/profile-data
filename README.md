@@ -24,7 +24,7 @@ POST /contact-profiles
 
 ### Get a list of contact profiles:
 ```markdown
-`GET /contact-profiles`
+GET /contact-profiles
 ```
 
 ### Get details of a specific contact profile:
